@@ -1,0 +1,131 @@
+.user-profile-navbarII {
+  display: none;
+}
+
+.nav2 ul li:hover .user-profile-navbarII {
+  display: block;
+
+  height: 400px;
+  width: 25%;
+  position: absolute;
+  top: 50px;
+  right: 0px;
+  z-index: 5;
+  overflow: hidden;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-right: 10px;
+  border: 1px solid gray;
+  box-shadow: 5px 5px 10px 0px gray;
+  background-color: #fcfcfc;
+  border-top: none;
+}
+.box1 {
+  display: flex;
+  flex-direction: column;
+}
+
+.proflie-heading {
+  color: #000;
+  background-color: #f6f8fa;
+  margin-top: 20px;
+  font-size: 15px;
+  font-weight: 300;
+}
+.proflie-para {
+  font-size: 12px;
+  font-weight: 300;
+}
+.inner-div-proflie {
+  margin-top: 10px;
+  height: 40px;
+  width: 40%;
+  border-bottom: 1px solid rgb(224, 219, 219);
+  padding-bottom: 10px;
+  /* background-color: red; */
+}
+.btn-sign-up {
+  height: 40px;
+  width: 100px;
+  background: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid #f16565;
+  color: #f16565;
+  /* background-color: #f16565; */
+}
+.btn-sign-up:hover {
+  color: #696e79;
+  border: 1px solid rgb(94, 93, 93);
+}
+.div1 {
+  border-bottom: 1px solid rgb(183, 184, 182);
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 20px;
+  /* background-color: chartreuse; */
+}
+.div1 ul {
+  list-style: none;
+  height: 10px;
+  width: 30%;
+}
+.div1 ul li a {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  text-decoration: none;
+  color: #919295;
+  font-size: 11px;
+}
+.div1 ul li a:hover {
+  color: #020917;
+  font-size: 12px;
+}
+.div2 {
+  border-bottom: 1px solid rgb(183, 184, 182);
+  display: flex;
+  flex-direction: column;
+  /* padding-top: 20px; */
+  padding-bottom: 20px;
+}
+.div2 ul {
+  list-style: none;
+  height: 15px;
+  width: 30%;
+}
+.div2 ul li a {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  text-decoration: none;
+  color: #696e79;
+}
+.div2 ul li a:hover {
+  color: #020917;
+  font-size: 12px;
+}
+@media screen and (max-width: 768px) {
+}
+
+@media screen and (max-width: 468px) {
+  .nav2 ul li:hover .user-profile-navbarII {
+    display: block;
+
+    height: 400px;
+    width: 45%;
+    position: absolute;
+    top: 70px;
+    right: 0px;
+    z-index: 5;
+    overflow: hidden;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-right: 10px;
+    border: 1px solid gray;
+    box-shadow: 5px 5px 10px 0px gray;
+    background-color: #fcfcfc;
+    border-top: none;
+  }
+}

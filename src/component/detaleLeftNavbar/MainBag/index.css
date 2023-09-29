@@ -1,0 +1,78 @@
+.first-container-bag {
+  height: 100%;
+  width: 100%;
+  padding-top: 90px;
+}
+
+.bag-top-head {
+  padding-left: 30px;
+  padding-right: 20px;
+  height: 70px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #f4e4e4;
+  border-bottom: 1px solid rgb(218, 218, 223);
+}
+.three-stage-of-buy {
+  color: #696e79;
+  font-size: 13px;
+  padding: 5px;
+}
+.SECURE {
+  height: 50px;
+  width: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #696e79;
+}
+.right-tick {
+  height: 30px;
+  width: 30px;
+  color: #31ed60;
+}
+.SECURE span {
+  word-spacing: 3px;
+}
+.second-container-bag {
+  padding-top: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.second-container-bag .empty-bag {
+  height: 100px;
+  width: 100px;
+  margin: 20px;
+}
+.second-container-bag .img-bag {
+  height: 100%;
+  width: 100%;
+}
+.second-container-bag .bag-header {
+  font-size: 15px;
+  font-weight: 600;
+  padding-top: 20px;
+  padding-bottom: 10px;
+}
+.second-container-bag .bag-para {
+  color: #919295;
+  font-size: 11px;
+  padding-bottom: 20px;
+}
+
+.second-container-bag .login-bag {
+  height: 40px;
+  width: 250px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 30px;
+  border: 1px solid red;
+  color: red;
+  background-color: #fcfcfc;
+  margin-top: 20px;
+}

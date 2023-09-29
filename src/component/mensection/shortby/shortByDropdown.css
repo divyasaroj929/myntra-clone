@@ -1,0 +1,45 @@
+.Short-by-first-container {
+  display: none;
+}
+
+.short-by:hover .Short-by-first-container {
+  display: block;
+  width: 100%;
+  box-sizing: border-box;
+  position: absolute;
+  top: 25px;
+  left: 0px;
+  z-index: 3;
+}
+.Short-by-second {
+  width: 100%;
+  background-color: white;
+  box-sizing: border-box;
+  z-index: 3;
+}
+
+.Short-by-second ul {
+  display: flex;
+  flex-direction: column;
+  list-style: none;
+  height: 50%;
+  width: 100%;
+  padding: 10px 10px 10px 10px;
+}
+.short-by-list ul li {
+  height: 100%;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-bottom: 5px;
+  padding-top: 5px;
+  color: gray;
+  font-size: 12px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+.short-by-list ul li:hover {
+  font-size: 13px;
+  color: black;
+  background-color: #ededed;
+}

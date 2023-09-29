@@ -1,0 +1,123 @@
+.GROUND-PAGE-PROFLIE {
+  width: 100%;
+  background-color: #31ed60;
+  margin-top: 90px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.main-land-page-profile {
+  width: 100%;
+  padding-top: 100px;
+  background-color: #f4e4e4;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding-bottom: 20px;
+}
+
+.Profile-land-page {
+  height: 90%;
+  width: 40%;
+  background-color: #fcf9fc;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  padding: 5px 20px 5px 20px;
+}
+
+.complete-header {
+  width: 100%;
+  color: #000;
+  text-transform: capitalize;
+  margin-top: 30px;
+  margin-bottom: 20px;
+  font-weight: 600;
+  font-size: 18px;
+}
+.main-land-page-profile .span {
+  padding: 5px;
+  color: #1f2024;
+}
+
+.svg-img {
+  height: 300px;
+  width: 40%;
+}
+.img {
+  height: 100%;
+  width: 100%;
+}
+a {
+  color: red;
+}
+.input-type {
+  height: 30px;
+  width: 80%;
+  font-size: 12px;
+  padding-left: 10px;
+  margin-bottom: 10px;
+  border: 2px solid rgb(245, 239, 239);
+  cursor: pointer;
+  outline: none;
+}
+.input-type:hover {
+  border: 2px solid rgb(155, 151, 151);
+  cursor: pointer;
+}
+.terms-condition {
+  color: #696e79;
+  font-size: 12px;
+  margin-bottom: 20px;
+  padding-top: 10px;
+}
+.button-continue {
+  height: 40px;
+  width: 90%;
+  background-color: rgb(246, 37, 107);
+  margin-bottom: 20px;
+  margin-left: 10px;
+  color: white;
+  cursor: pointer;
+  outline: none;
+  border: none;
+}
+
+.terms {
+  padding-left: 5px;
+}
+@media screen and (max-width: 768px) {
+  .Profile-land-page {
+    height: 90%;
+    width: 40%;
+    background-color: #fcf9fc;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 5px 20px 5px 20px;
+  }
+}
+
+@media screen and (max-width: 468px) {
+  .Profile-land-page {
+    height: 90%;
+    width: 90%;
+    background-color: #fcf9fc;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 5px 20px 5px 20px;
+  }
+  .input-type {
+    height: 30px;
+    width: 100%;
+    font-size: 12px;
+    padding-left: 10px;
+    margin-bottom: 10px;
+    border: 2px solid rgb(245, 239, 239);
+    cursor: pointer;
+    outline: none;
+  }
+}
