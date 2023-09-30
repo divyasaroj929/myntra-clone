@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/myntraclone/static/css/main.23e7e2d8.css",
+    "main.js": "/myntraclone/static/js/main.936a2a56.js",
+    "static/media/fourimg.jpg": "/myntraclone/static/media/fourimg.dd5e2d3c95f36be01c8d.jpg",
+    "static/media/secondimg.jpg": "/myntraclone/static/media/secondimg.16630ae6324f8c766e34.jpg",
+    "static/media/thirdImg.jpg": "/myntraclone/static/media/thirdImg.718b0d0bd31587d1b92a.jpg",
+    "static/media/firstmyntra.jpg": "/myntraclone/static/media/firstmyntra.a52d6afc6b0a33f379cf.jpg",
+    "static/media/ProflieIMG.webp": "/myntraclone/static/media/ProflieIMG.d3e953a25f248efaf293.webp",
+    "static/media/emptybag.png": "/myntraclone/static/media/emptybag.a9c4b6e9fa83e9e0f81a.png",
+    "static/media/mens.jpg": "/myntraclone/static/media/mens.8fcb9100d46d34f78c4e.jpg",
+    "static/media/Closet.svg": "/myntraclone/static/media/Closet.f541dc16ce3532137e4f187f27518551.svg",
+    "index.html": "/myntraclone/index.html",
+    "main.23e7e2d8.css.map": "/myntraclone/static/css/main.23e7e2d8.css.map",
+    "main.936a2a56.js.map": "/myntraclone/static/js/main.936a2a56.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.23e7e2d8.css",
+    "static/js/main.936a2a56.js"
+  ]
+}
